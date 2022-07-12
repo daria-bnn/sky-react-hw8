@@ -1,0 +1,31 @@
+.AddButtons {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 16px;
+}
+
+.Button {
+  padding: 16px;
+
+  font-size: 16px;
+  line-height: 1;
+
+  border: 1px solid transparent;
+  border-radius: 5px;
+
+  transition: bordercolor 0.3s ease;
+}
+
+.Button:hover {
+  border-color: #606e8c;
+  cursor: pointer;
+}
+
+.Button_color_green {
+  background-color: #008b8b;
+}
+
+.Button_color_red {
+  background-color: #ca3767;
+}

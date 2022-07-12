@@ -1,3 +1,13 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+  padding-right: calc(50% - 450px);
+  padding-left: calc(50% - 450px);
+
   text-align: center;
+
+  background-color: #f2f4f7;
 }
